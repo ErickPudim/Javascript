@@ -1,5 +1,6 @@
 //importando o mudlo fs (fyle system)
-const fs = require('fs');
+//const fs = require('fs');
+import fs from 'fs';
 
 //lendo um arquivo de forma assincrona
 fs.readFile('exemplo.txt','utf8', (erro, dados) => {

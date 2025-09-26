@@ -1,0 +1,12 @@
+{
+  "name": "introducao",
+  "version": "1.0.0",
+  "description": "* Para usar o Node.js, você precisa instalá-lo em seu computador: * Acesse o site oficial: nodejs.org * Baixe a versão recomendada para o seu sistema operacional. * Siga as instruções do instalador. * Verifique a instalação abrindo o terminal ou prompt de comando e digitando: node -v Isso deve mostrar a versão do Node.js instalada.",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

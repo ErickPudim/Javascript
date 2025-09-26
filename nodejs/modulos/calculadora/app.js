@@ -1,6 +1,11 @@
-const modulo = require('./meuModulo'); // Importando o módulo
-const modulo2 = require('./calculadora_idade');
+//const funcoes_matematicas = require('./funcoes_matematicas');
+//const calculadora_idade = require('./calculadora_idade');
+import {somar,subtrair,multiplicar,dividir} from './funcoes_matematicas.js';
+import * as calculadora_idade from './calculadora_idade.js';
 
-const mensagem = modulo.saudacao('Erick'); // Executando a função
-const idade = modulo2.idade(2008);
-console.log(mensagem + ` Em 2025 você terá ${idade} anos de idade`);
+console.log("Soma: " + somar(5, 5, 5));
+console.log("Subtração: " + subtrair(5, 3));
+console.log("Multiplicação: " + multiplicar(5, 3));
+console.log("Divisão: " + dividir(5, 0));
+
+console.log(calculadora_idade.idade("João", 1976, 2050));
