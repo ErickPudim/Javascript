@@ -19,6 +19,9 @@ app.use('/users', usersRoutes);
 const bananaRoutes = require('./routes/banana');
 app.use('/banana', bananaRoutes);
 
+const produtosRoutes = require('./routes/produtos');
+app.use('/produtos', produtosRoutes);
+
 // Servidor
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
