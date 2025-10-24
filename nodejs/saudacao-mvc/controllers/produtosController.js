@@ -1,5 +1,3 @@
-const saudacaoModel = require('../models/saudacaoModel');
-
 module.exports = {
 
   // produtos
